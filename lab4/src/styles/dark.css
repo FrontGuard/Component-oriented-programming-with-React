@@ -1,0 +1,24 @@
+body.dark {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar.dark {
+    background-color: #333333;
+    color: #ffffff;
+    border-bottom: 1px solid #444444;
+}
+
+.button.dark {
+    background-color: #444444;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button.dark:hover {
+    background-color: #555555;
+}
