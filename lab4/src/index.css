@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Загальний стиль кнопок навігації */
+.nav-button {
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 0 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Теми для кнопок */
+.light .nav-button {
+    background-color: #e0e0e0;
+    color: #000000;
+    border: 1px solid #ccc;
+}
+
+.light .nav-button:hover {
+    background-color: #d6d6d6;
+}
+
+.dark .nav-button {
+    background-color: #444444;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+.dark .nav-button:hover {
+    background-color: #555555;
+}
